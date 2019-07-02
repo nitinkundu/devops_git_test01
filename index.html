@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="displayNames()">RUN</button>
+    <div id="demo"></div>
+    <script>
+    function displayNames() {
+        var Names  = ["Digital"];
+        Names[1]="A";
+        Names[2]="B";
+        Names[3]="C";
+        Names[4]="D";
+        Names[5]="E";
+        Names[6]="F";
+        Names[7]="G";
+        Names[8]="H";
+        Names[9]="I";
+        Names[10]="J";
+        Names[11]="K";
+        Names[12]="L";
+        Names[13]="A";
+        Names[14]="B";
+        for( var i=0; i<15;i++){
+
+        
+        document.getElementById("demo").innerHTML += "<ul>" + Names[i]+'</ul>' ;
+        }}
+</script>
+</body>
+</html>
