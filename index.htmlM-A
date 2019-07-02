@@ -12,20 +12,20 @@
     <script>
     function displayNames() {
         var Names  = ["Digital"];
-        Names[1]="Akash";
+        Names[1]="A";
         Names[2]="Ankana";
         Names[3]="C";
-        Names[4]="Bizeet";
+        Names[4]="D";
         Names[5]="E";
         Names[6]="F";
-        Names[7]="Ashish Singh";
+        Names[7]="G";
         Names[8]="H";
-        Names[9]="Sudipa Behera";
+        Names[9]="I";
         Names[10]="J";
         Names[11]="K";
         Names[12]="L";
         Names[13]="A";
-        Names[14]="Neha";
+        Names[14]="B";
         for( var i=0; i<15;i++){
 
         
